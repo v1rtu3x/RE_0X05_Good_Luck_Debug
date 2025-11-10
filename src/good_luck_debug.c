@@ -68,7 +68,6 @@ int any_anti_debug_detected(void) {
 }
 
 int main(void) {
-    puts("=== ANTI-DEBUG CHALLENGE ===");
     puts("Enter the secret key:");
 
     char buf[256];
@@ -92,7 +91,7 @@ int main(void) {
     } else {
 
         if (strcmp(buf, correct_key) == 0) {
-            puts("Correct! Here is your reward: FLAG{anti_debug_bypassed}");
+            puts("Correct! Here is your reward: DMI{4nt1_debug_byp4553d}");
             return 0;
         } else {
             puts("Wrong key.");
